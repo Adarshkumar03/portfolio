@@ -3,7 +3,7 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-4 left-1/3 flex w-1/3 justify-between dark:bg-[#f1faee] px-3 py-2 rounded-md shadow-md shadow-slate-300">
+    <nav className="fixed top-4 left-1/3 flex w-1/3 justify-between bg-[#f1faee] dark:bg-[#f1faee] px-3 py-2 rounded-md shadow-md shadow-slate-300">
       <div>
         <Link to="/">
         <h1 className="text-[#2B2D42] text-2xl font-bold">Adarsh.</h1>

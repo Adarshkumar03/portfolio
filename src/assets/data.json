@@ -1,0 +1,100 @@
+{
+  "projects": [],
+  "skills": {
+    "frontend": [
+      {
+        "name": "HTML",
+        "img": "/html.svg"
+      },
+      {
+        "name": "CSS",
+        "img": "/css-3.svg"
+      },
+      {
+        "name": "React",
+        "img": "/reactjs.svg"
+      },
+
+      {
+        "name": "JavaScipt",
+        "img": "/javascript.svg"
+      },
+      {
+        "name": "Next",
+        "img": "/nextjs.svg"
+      },
+      {
+        "name": "TypeScript",
+        "img": "/typescript.svg"
+      },
+      {
+        "name": "Pug",
+        "img": "/pug.svg"
+      },
+      {
+        "name": "Tailwind",
+        "img": "/tailwind.svg"
+      },
+      {
+        "name": "Mantine",
+        "img": "/mantine.svg"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node",
+        "img": "/node-js.svg"
+      },
+      {
+        "name": "Socket.io",
+        "img": "/socket-io.svg"
+      },
+      {
+        "name": "MongoDB",
+        "img": "/MongoDB.svg"
+      },
+      {
+        "name": "Express",
+        "img": "/expressjs.svg"
+      },
+      {
+        "name": "Passport",
+        "img": "/passport.svg"
+      }
+    ],
+    "Miscellanous": [
+      {
+        "name":"C++",
+        "img":"cpp.svg"
+      },
+      {
+        "name":"Java",
+        "img": "/java.svg"
+      },  
+      {
+        "name": "Github",
+        "img": "/github.svg"
+      },
+      {
+        "name": "Docker",
+        "img": "/docker.svg"
+      },
+      {
+        "name": "Firebase",
+        "img": "/firebase.svg"
+      },
+      {
+        "name": "Webpack",
+        "img": "/webpack.svg"
+      },
+      {
+        "name": "Keycloak",
+        "img": "keycloak.svg"
+      },
+      {
+        "name":"Jest",
+        "img": "jest.svg"
+      }
+    ]
+  }
+}
