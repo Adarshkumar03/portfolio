@@ -22,7 +22,7 @@ function Skills() {
   ));
 
   return (
-    <div className="pb-10 px-48">
+    <div className="pb-10 px-52">
       <h1 className="font-bold text-3xl text-[#2b2d42] dark:text-[#A8DADC] mb-10 text-center">
         Technical Knowledge
       </h1>

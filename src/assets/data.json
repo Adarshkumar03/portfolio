@@ -1,5 +1,30 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "name":"MoodSpace",
+      "description":"MoodSpace is a web application to help users track their moods, journal, and access mental health resources.",
+      "img":"/moodspace.png",
+      "tech-stack":["React", "Node", "Express", "MongoDB", "Passport", "Mantine", "Zustand"],
+      "live":"",
+      "github":"https://github.com/Adarshkumar03/moodspace"
+    },
+    {
+      "name":"Members Only",
+      "description":"An exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.",
+      "img":"/memberonly.png",
+      "tech-stack":["Node", "Express", "Pug", "Passport"],
+      "live":"",
+      "github":"https://github.com/Adarshkumar03/members-only"
+    },
+    {
+      "name":"Collab Whiteboard",
+      "description":"A web-based application that enables real-time collaboration through a shared digital whiteboard.",
+      "img":"/whiteboardTool.png",
+      "tech-stack":["React", "Fabricjs", "Express", "Node", "Keycloak", "Docker", "Typescript"],
+      "live":"",
+      "github":"https://github.com/Adarshkumar03/collab-whiteboar"
+    }
+  ],
   "skills": {
     "frontend": [
       {

@@ -66,7 +66,7 @@ export default function Home() {
         <img
           src={profilePic}
           alt=""
-          className="md:w-3/4 rounded-xl shadow-md shadow-slate-500"
+          className="w-3/4 rounded-xl shadow-md shadow-slate-500"
         />
       </div>
     </div>
