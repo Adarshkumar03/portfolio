@@ -32,7 +32,7 @@ export default function Home() {
         <div>
           <p className="font-semibold text-lg">
             I build things for the web to provide the best User Experience
-            Possible.
+            possible.
           </p>
           <p className="font-semibold text-lg">
             I am a fast learner, always looking to improve and learn new

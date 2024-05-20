@@ -8,8 +8,8 @@ export default function Projects() {
       </div>
       <div className="p-2">
         <h2 className="font-bold text-3xl mb-2 text-[#03001C] dark:text-[#5B8FB9]">{pr.name}</h2>
-        <p className="mb-4 text-[#2B2D42ef] dark:text-[#EEEEEE] text-lg">{pr.description}</p>
-        <h2 className="text-2xl font-semibold mb-3 text-[#03001C] dark:text-[#B6EADA]">Tech Stack</h2>
+        <p className="mb-4 text-[#2B2D42ef] dark:text-[##03001Caa] text-lg">{pr.description}</p>
+        <h2 className="text-2xl font-semibold mb-3 text-[#03001C]">Tech Stack</h2>
         <div className="flex justify-start mb-4">
           {pr["tech-stack"].map((tech) => (
             <button className="bg-slate-300 p-2 mr-2 rounded-md">{tech}</button>
