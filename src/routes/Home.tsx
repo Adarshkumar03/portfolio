@@ -4,8 +4,16 @@ import profilePic from "/profilePic.jpg";
 import { Link } from "react-router-dom";
 import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
 import { FaArrowRight } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 export default function Home() {
+  const [profilePicLoaded, setProfilePicLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = profilePic;
+    img.onload = () => setProfilePicLoaded(true);
+  }, []);
   return (
     <div className="flex md:flex-row xsm:flex-col-reverse items-center justify-center xl:py-5 xl:px-48 xsm:px-12 dark:text-[#fff]">
       <div className="xl:w-1/2 md:w-1/2 xsm:w-full flex flex-col gap-4">
@@ -53,7 +61,10 @@ export default function Home() {
         </div>
         <div className="flex">
           <button className="bg-[#301E67] hover:bg-[#5B8FB9] text-[#Fff] p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit mr-5">
-            <Link to="/about" className="flex justify-center items-center"><span className="mr-2">More about me</span> <FaArrowRight size={18}/></Link>
+            <Link to="/about" className="flex justify-center items-center">
+              <span className="mr-2">More about me</span>{" "}
+              <FaArrowRight size={18} />
+            </Link>
           </button>
           <a
             href="/AdarshResume.pdf"
@@ -61,16 +72,21 @@ export default function Home() {
             rel="noreferrer"
             className="flex justify-center items-center bg-[#301E67] hover:bg-[#5B8FB9] text-[#F1FAEE] text-center p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit"
           >
-            <span className="mr-2">My Resume</span> <HiMiniArrowTopRightOnSquare size={20}/>
+            <span className="mr-2">My Resume</span>{" "}
+            <HiMiniArrowTopRightOnSquare size={20} />
           </a>
         </div>
       </div>
       <div className="xl:w-1/2 md:w-1/2 xsm:w-full flex md:justify-end xsm:mb-4 md:mb-0">
-        <img
-          src={profilePic}
-          alt=""
-          className="w-3/4 rounded-xl shadow-md shadow-slate-500"
-        />
+        {profilePicLoaded ? (
+          <img
+            src={profilePic}
+            alt=""
+            className="w-3/4 rounded-xl shadow-md shadow-slate-500"
+          />
+        ) : (
+          <div>Loading image...</div> // or a placeholder image
+        )}
       </div>
     </div>
   );
