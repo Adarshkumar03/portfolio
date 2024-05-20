@@ -1,28 +1,60 @@
 {
   "projects": [
     {
-      "name":"MoodSpace",
-      "description":"MoodSpace is a web application to help users track their moods, journal, and access mental health resources.",
-      "img":"/moodspace.png",
-      "tech-stack":["React", "Node", "Express", "MongoDB", "Passport", "Mantine", "Zustand"],
-      "live":"",
-      "github":"https://github.com/Adarshkumar03/moodspace"
+      "name": "MoodSpace",
+      "description": "MoodSpace is a web application to help users track their moods, journal, and access mental health resources.",
+      "img": "/moodspace.png",
+      "tech-stack": [
+        "React",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Passport",
+        "Mantine",
+        "Zustand"
+      ],
+      "live": "",
+      "github": "https://github.com/Adarshkumar03/moodspace"
     },
     {
-      "name":"Members Only",
-      "description":"An exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.",
-      "img":"/memberonly.png",
-      "tech-stack":["Node", "Express", "Pug", "Passport"],
-      "live":"",
-      "github":"https://github.com/Adarshkumar03/members-only"
+      "name": "Collab Whiteboard",
+      "description": "A web-based application that enables real-time collaboration through a shared digital whiteboard.",
+      "img": "/whiteboardTool.png",
+      "tech-stack": [
+        "React",
+        "Fabricjs",
+        "Express",
+        "Node",
+        "Keycloak",
+        "Docker",
+        "Typescript"
+      ],
+      "live": "",
+      "github": "https://github.com/Adarshkumar03/collab-whiteboard"
     },
     {
-      "name":"Collab Whiteboard",
-      "description":"A web-based application that enables real-time collaboration through a shared digital whiteboard.",
-      "img":"/whiteboardTool.png",
-      "tech-stack":["React", "Fabricjs", "Express", "Node", "Keycloak", "Docker", "Typescript"],
-      "live":"",
-      "github":"https://github.com/Adarshkumar03/collab-whiteboar"
+      "name": "Members Only",
+      "description": "An exclusive clubhouse where your members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.",
+      "img": "/memberonly.png",
+      "tech-stack": ["Node", "Express", "Pug", "Passport"],
+      "live": "",
+      "github": "https://github.com/Adarshkumar03/members-only"
+    },
+    {
+      "name": "Brunel",
+      "description": "Brunel is a frontend project that has a landing page, a registration page and a confirmation page.",
+      "img": "/brunel.png",
+      "tech-stack": ["React", "Tailwind"],
+      "live": "https://brunel-app.netlify.app/",
+      "github": "https://github.com/Adarshkumar03/brunel"
+    },
+    {
+      "name":"Sky Peeker",
+      "description":"Weather App made using HTML, CSS, Javascript and Open Weather Map API.",
+      "img":"/sky-peeker.png",
+      "tech-stack":["HTML", "CSS", "Javascript"],
+      "github":"https://github.com/Adarshkumar03/sky-peeker",
+      "live":"https://sky-peeker.netlify.app/"
     }
   ],
   "skills": {
@@ -89,13 +121,13 @@
     ],
     "Miscellanous": [
       {
-        "name":"C++",
-        "img":"cpp.svg"
+        "name": "C++",
+        "img": "cpp.svg"
       },
       {
-        "name":"Java",
+        "name": "Java",
         "img": "/java.svg"
-      },  
+      },
       {
         "name": "Github",
         "img": "/github.svg"
@@ -117,7 +149,7 @@
         "img": "keycloak.svg"
       },
       {
-        "name":"Jest",
+        "name": "Jest",
         "img": "jest.svg"
       }
     ]

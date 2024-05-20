@@ -4,12 +4,12 @@ export default function About() {
     <div>
       <div className="flex flex-col px-96">
         <div className="pb-5 mb-7 border-b border-slate-300">
-          <h1 className="text-[#2b2d42] dark:text-[#A8DADC] font-bold text-5xl mt-10 text-center">
+          <h1 className="text-[#03001C] dark:text-[#fff] font-bold text-5xl mt-10 text-center">
             About Me
           </h1>
         </div>
-        <div className="w-full text-xl text-[#2b2d42ee] dark:text-[#F1FAEE] mb-10">
-          <p className="text-2xl mb-5 text-slate-500 dark:text-[#457B9D] font-medium">
+        <div className="w-full text-xl dark:text-[#E2FDFF] mb-10">
+          <p className="text-2xl mb-5 text-[#301E67] dark:text-[#5B8FB9] font-medium">
             Hey, I&apos;m Adarsh Kumar.
           </p>
           <p className="mb-5">
@@ -22,7 +22,7 @@ export default function About() {
               href="https://www.freecodecamp.org"
               target="_blank"
               rel="noreferrer"
-              className="text-[#457B9D] font-bold hover:text-[#457B9Dbb]"
+              className="text-[#5B8FB9] font-bold hover:text-[#5B8FB9dd]"
             >
               freeCodeCamp
             </a>
@@ -49,7 +49,7 @@ export default function About() {
             Feel free to write me at:{" "}
             <a
               href="mailto:adarshkumar245@gmail.com"
-              className="text-[#457B9D] font-bold hover:text-[#457B9Dbb]"
+              className="text-[#5B8FB9] font-bold hover:text-[#5B8FB9cc]"
             >
               adarshkumar245@gmail.com
             </a>

@@ -2,19 +2,22 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 import profilePic from "/profilePic.jpg";
 import { Link } from "react-router-dom";
+import { HiMiniArrowTopRightOnSquare } from "react-icons/hi2";
+import { FaArrowRight } from "react-icons/fa";
+
 export default function Home() {
   return (
-    <div className="flex md:flex-row xsm:flex-col-reverse items-center justify-center xl:py-5 xl:px-48 xsm:px-12 dark:text-[#F1FAEE]">
+    <div className="flex md:flex-row xsm:flex-col-reverse items-center justify-center xl:py-5 xl:px-48 xsm:px-12 dark:text-[#fff]">
       <div className="xl:w-1/2 md:w-1/2 xsm:w-full flex flex-col gap-4">
         <div>
           <h1 className="font-bold text-3xl">
             Hello👋, I'm{" "}
-            <span className="text-[#2B2D42] dark:text-[#A8DADC]">
+            <span className="text-[#03001C] dark:text-[#fff]">
               Adarsh Kumar
             </span>{" "}
             and
           </h1>
-          <h1 className="font-extrabold text-[#2B2D42] dark:text-[#A8DADC] my-2 xl:text-6xl xsm:text-3xl">
+          <h1 className="font-extrabold text-[#301E67] dark:text-[#B6EADA] my-2 xl:text-6xl xsm:text-3xl">
             I'm a Full Stack <br className="xsm:hidden" /> Web Developer
           </h1>
         </div>
@@ -49,16 +52,16 @@ export default function Home() {
           </a>
         </div>
         <div className="flex">
-          <button className="bg-[#E63946] hover:bg-[#E63946dd] text-[#F1FAEE] p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit mr-5">
-            <Link to="/about">More about me -&gt;</Link>
+          <button className="bg-[#301E67] hover:bg-[#5B8FB9] text-[#Fff] p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit mr-5">
+            <Link to="/about" className="flex justify-center items-center"><span className="mr-2">More about me</span> <FaArrowRight size={18}/></Link>
           </button>
           <a
             href="/AdarshResume.pdf"
             target="_blank"
             rel="noreferrer"
-            className="bg-[#E63946] hover:bg-[#E63946dd] text-[#F1FAEE] text-center p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit"
+            className="flex justify-center items-center bg-[#301E67] hover:bg-[#5B8FB9] text-[#F1FAEE] text-center p-2 w-1/3 rounded-md font-semibold shadow-sm shadow-inherit"
           >
-            Resume
+            <span className="mr-2">My Resume</span> <HiMiniArrowTopRightOnSquare size={20}/>
           </a>
         </div>
       </div>

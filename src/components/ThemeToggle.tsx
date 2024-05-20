@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../ThemeContext.tsx";
+import { MdDarkMode, MdLightMode } from "react-icons/md";
 
 const ThemeToggle: React.FC = () => {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -10,10 +11,9 @@ const ThemeToggle: React.FC = () => {
 
   return (
     <button
-      className="bg-gray-200 dark:bg-gray-800 p-2 rounded"
       onClick={toggleTheme}
     >
-      {theme === "light" ? "Dark Mode" : "Light Mode"}
+      {theme === "light" ? <MdDarkMode size={25}/> :<MdLightMode size={25}/>}
     </button>
   );
 };

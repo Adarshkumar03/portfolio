@@ -3,19 +3,19 @@ import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   return (
-    <nav className="fixed top-4 left-1/3 flex w-1/3 justify-between bg-[#f1faee] dark:bg-[#f1faee] px-3 py-2 rounded-md shadow-md shadow-slate-300">
+    <nav className="z-10 fixed top-4 left-1/3 flex w-1/3 justify-between bg-[#E2FDFF] px-5 py-2 rounded-xl shadow-md shadow-[#B6EADA]">
       <div>
         <Link to="/">
-        <h1 className="text-[#2B2D42] text-2xl font-bold">Adarsh.</h1>
+        <h1 className="text-[#03001C] text-2xl font-bold">Adarsh.</h1>
         </Link>
         
       </div>
-      <div className="my-1">
-        <Link to="/" className="mr-2">Home</Link>
-        <Link to="/about" className="mr-2">About</Link>
-        <Link to="/projects" className="mr-2">Projects</Link>
+      <div className="my-1 text-[#03001C] font-medium">
+        <Link to="/" className="p-3 rounded-md hover:bg-[#B6EADA]">Home</Link>
+        <Link to="/about" className="p-3 rounded-md hover:bg-[#B6EADA]">About</Link>
+        <Link to="/projects" className="p-3 rounded-md hover:bg-[#B6EADA]">Projects</Link>
         <a
-          className=""
+          className="p-3 rounded-md hover:bg-[#B6EADA]"
           href="/AdarshResume.pdf"
           target="_blank"
           rel="noreferrer"

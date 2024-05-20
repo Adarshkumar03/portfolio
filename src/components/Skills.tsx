@@ -23,25 +23,25 @@ function Skills() {
 
   return (
     <div className="pb-10 px-52">
-      <h1 className="font-bold text-3xl text-[#2b2d42] dark:text-[#A8DADC] mb-10 text-center">
+      <h1 className="font-bold text-3xl text-[#03001C] dark:text-[#FFFFFF] mb-10 text-center">
         Technical Knowledge
       </h1>
       <div className="flex">
         <div className="flex flex-col">
-          <h1 className="font-bold text-xl ml-32 mb-2 dark:text-[#A8DADC]">Frontend</h1>
-          <div className="p-5 grid grid-cols-3 gap-5 bg-[#457B9D] mr-8 rounded-lg shadow-lg shadow-slate-500">
+          <h1 className="font-bold text-xl ml-32 mb-2 dark:text-[#B6EADA]">Frontend</h1>
+          <div className="p-5 grid grid-cols-3 gap-5 bg-[#301E67] mr-8 rounded-lg shadow-lg shadow-[#301E67]">
             {frontend}
           </div>
         </div>
         <div className="flex flex-col">
-          <h1 className="font-bold text-xl ml-32 mb-2 dark:text-[#A8DADC]">Backend</h1>
-          <div className="p-5 grid grid-cols-3 gap-5 bg-[#457B9D] mr-8 rounded-lg shadow-lg shadow-slate-500">
+          <h1 className="font-bold text-xl ml-32 mb-2 dark:text-[#B6EADA]">Backend</h1>
+          <div className="p-5 grid grid-cols-3 gap-5 bg-[#301E67] mr-8 rounded-lg shadow-lg shadow-[#301E67]">
             {backend}
           </div>
         </div>
         <div>
-          <h1 className="font-bold text-xl ml-20 mb-2 dark:text-[#A8DADC]">Miscellaneous</h1>
-          <div className="p-5 grid grid-cols-3 gap-5 bg-[#457B9D] rounded-lg shadow-lg shadow-slate-500">
+          <h1 className="font-bold text-xl ml-20 mb-2 dark:text-[#B6EADA]">Miscellaneous</h1>
+          <div className="p-5 grid grid-cols-3 gap-5 bg-[#301E67] rounded-lg shadow-lg shadow-[#301E67]">
             {Miscellaneous}
           </div>
         </div>
