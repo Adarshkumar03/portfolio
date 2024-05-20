@@ -16,8 +16,8 @@ export default function Projects() {
           ))}
         </div>
         <div className="flex">
-            {pr.github != "" && <a className="bg-red-400 p-2 text-lg text-white font-bold rounded-md mr-5" target="_blank" href={pr.github}>View Code</a>}
-            {pr.live !== "" && <a className="bg-red-400 p-2 text-lg text-white font-bold rounded-md" target="_blank" href={pr.live}>See it Live</a>}         
+            {pr.github != "" && <a className="bg-[#301E67] hover:bg-[#5B8FB9] p-2 text-lg text-white font-bold rounded-md mr-5" target="_blank" href={pr.github}>View Code</a>}
+            {pr.live !== "" && <a className="bg-[#301E67] hover:bg-[#5B8FB9] p-2 text-lg text-white font-bold rounded-md" target="_blank" href={pr.live}>See it Live</a>}         
         </div>
       </div>
     </div>
