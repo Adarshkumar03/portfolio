@@ -9,7 +9,7 @@ export default function About() {
           </h1>
         </div>
         <div className="w-full text-xl dark:text-[#E2FDFF] mb-10">
-          <p className="text-2xl mb-5 text-[#301E67] dark:text-[#5B8FB9] font-medium">
+          <p className="text-2xl mb-5 text-[#301E67] dark:text-[#5B8FB9] font-semibold">
             Hey, I&apos;m Adarsh Kumar.
           </p>
           <p className="mb-5">

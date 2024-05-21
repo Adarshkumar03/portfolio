@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 
 function Layout() {
   return (
-    <div className="bg-[#fff] dark:bg-[#03001C] min-h-screen pt-20">
+    <div className="bg-[#FAFAFF] dark:bg-[#03001C] min-h-screen pt-20">
       <Navbar />
       <Outlet /> {/* Renders the child route's content */}
     </div>
