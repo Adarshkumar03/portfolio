@@ -1,10 +1,15 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
+import React, { Dispatch, SetStateAction } from "react";
 
-export default function NavbarMobile({ isOpen, setIsOpen }) {
+interface NavbarMobileProps {
+    isOpen: boolean;
+    setIsOpen: Dispatch<SetStateAction<boolean>>;
+  }
+
+export default function NavbarMobile({ isOpen, setIsOpen }: NavbarMobileProps) {
   return (
     <nav
       className={`w-11/12 px-2 fixed top-3 flex justify-between bg-[#E2FDFF] 
