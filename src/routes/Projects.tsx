@@ -2,7 +2,7 @@ import { projects } from "../assets/data.json";
 
 export default function Projects() {
   const list = projects.map((pr) => (
-    <div className="bg-[#F0f4ef] grid gap-y-5 border border-[#03001C33] dark:border:[#fff] px-5 rounded-md shadow-md shadow-[#03001C]">
+    <div className=" bg-[#F0f4ef] grid gap-y-5 border border-[#03001C33] dark:border:[#fff] px-5 rounded-md shadow-md shadow-[#03001C]">
       <div>
         <img
           src={pr.img}
@@ -48,7 +48,7 @@ export default function Projects() {
     </div>
   ));
   return (
-    <div className="flex flex-col items-center justify-center px-24 pb-10">
+    <div className=" flex flex-col items-center justify-center px-24 pb-10">
       <h1 className="text-[#03001C] dark:text-[#fff] font-bold text-5xl mt-10 mb-10 text-center">
         Projects
       </h1>

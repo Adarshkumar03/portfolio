@@ -20,15 +20,13 @@ function Layout() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#FAFAFF] dark:bg-[#03001C] min-h-screen pt-16 xl:pt-20">
+    <div className="bg-[#FAFAFF] dark:bg-[#03001C] w-full overflow-x-hidden min-h-screen pt-16 xl:pt-20">
       {isBreakout ? (
         <NavbarMobile isOpen={isOpen} setIsOpen={setIsOpen} />
       ) : (
         <Navbar />
       )}
-      <div className="max-w-screen-sm">
         <Outlet />
-      </div>
     </div>
   );
 }

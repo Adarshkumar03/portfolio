@@ -2,7 +2,7 @@ import Skills from "../components/Skills";
 export default function About() {
   return (
     <div>
-      <div className="flex flex-col px-96">
+      <div className="flex flex-col px-10 xl:px-96">
         <div className="pb-5 mb-7 border-b border-slate-300">
           <h1 className="text-[#03001C] dark:text-[#fff] font-bold text-5xl mt-10 text-center">
             About Me
