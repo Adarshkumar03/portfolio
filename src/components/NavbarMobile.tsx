@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
-import React, { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction } from "react";
 
 interface NavbarMobileProps {
     isOpen: boolean;
