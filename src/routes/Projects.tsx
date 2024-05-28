@@ -52,7 +52,7 @@ export default function Projects() {
       <h1 className="text-[#03001C] dark:text-[#fff] font-bold text-5xl mt-10 mb-10 text-center">
         Projects
       </h1>
-      <div className="grid xl:grid-cols-2 xl:mx-0 gap-5 xl:gap-10">{list}</div>
+      <div className="grid xl:grid-cols-2 xl:mx-0 gap-5 xl:gap-10 pb-5 xl:pb-0">{list}</div>
     </div>
   );
 }

@@ -21,30 +21,30 @@ export default function NavbarMobile({ isOpen, setIsOpen }: NavbarMobileProps) {
       )}
 
       {isOpen && (
-        <div className="flex my-1 text-[#03001C] font-medium">
+        <div className="flex justify-around my-1 text-[#03001C] font-medium">
           <Link
             to="/"
-            className="block p-2 hover:bg-[#B6EADA]"
+            className="flex items-center p-1 hover:bg-[#B6EADA]"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
           <Link
             to="/about"
-            className="block p-2 hover:bg-[#B6EADA]"
+            className="flex items-center p-1 hover:bg-[#B6EADA]"
             onClick={() => setIsOpen(false)}
           >
             About
           </Link>
           <Link
             to="/projects"
-            className="block p-2 hover:bg-[#B6EADA]"
+            className="flex items-center p-1 hover:bg-[#B6EADA]"
             onClick={() => setIsOpen(false)}
           >
             Projects
           </Link>
           <a
-            className="block p-2 hover:bg-[#B6EADA]"
+            className="flex items-center p-1 hover:bg-[#B6EADA]"
             href="/AdarshResume.pdf"
             target="_blank"
             rel="noreferrer"
